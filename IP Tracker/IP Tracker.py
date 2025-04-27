@@ -1,11 +1,9 @@
 import requests
 import pyfiglet
 
-# Print the ASCII banner using pyfiglet
 ascii_banner = pyfiglet.figlet_format("IP Tracker - Made By Exploits")
 print(ascii_banner)
 
-# Function to get geolocation data for the IP address
 def get_ip_info(ip):
     try:
         # Sending request to API to get IP info in JSON format
@@ -49,7 +47,6 @@ def get_ip_info(ip):
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
 
-# Main loop to keep asking for IP addresses
 while True:
     ip = input("Enter IP address to track (or type 'exit' to quit): ")
 
@@ -58,7 +55,6 @@ while True:
         print("Exiting program. Goodbye!")
         break
 
-    # Call the function to get the IP information
     if ip.strip():  # Check if IP input is not empty or just spaces
         get_ip_info(ip)
     else:
