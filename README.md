@@ -6,11 +6,8 @@ The IP Tracker is a Python-based tool designed to track the geolocation and othe
 
 Features:
 
-Geolocation Information: Get detailed information about the location of any IP address.
-
-Easy-to-Use: The script uses simple text-based input and provides a clear output of the data.
-
-Supports Multiple IP Lookups: You can continuously track different IP addresses without restarting the script.
-
-API Integration: Utilizes ip-api.com for reliable and accurate geolocation information.
+  - Geolocation Information: Get detailed information about the location of any IP address.
+  - Easy-to-Use: The script uses simple text-based input and provides a clear output of the data.
+  - Supports Multiple IP Lookups: You can continuously track different IP addresses without restarting the script.
+  - API Integration: Utilizes ip-api.com for reliable and accurate geolocation information.
 
